@@ -1,0 +1,64 @@
+@CHARSET "UTF-8";
+
+#head {
+	height: 400px;
+	background-color: rgba(50, 50, 50, 0.5);
+}
+
+#logo {
+	float: left;
+	padding: 10px;
+}
+
+.logo img {
+	height: 300px;
+}
+
+#title {
+	font-size: X-large;
+	float: left;
+	text-align: center;
+	color: #EBE5FF;
+	padding: 10px 0px 10px 100px;
+	float: left;
+}
+
+body {
+	/* 画像ファイルの指定 */
+	background-image: url(../img/back.jpg);
+	/* 画像を常に天地左右の中央に配置 */
+	background-position: center center;
+	/* 画像をタイル状に繰り返し表示しない */
+	background-repeat: no-repeat;
+	/* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+	background-attachment: fixed;
+	/* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+	background-size: cover;
+	/* 背景画像が読み込まれる前に表示される背景のカラー */
+	background-color: #000016;
+}
+
+#topBox {
+	font-size: X-large;
+	padding-top: 30px;
+	text-align: center;
+	color: #EBE5FF;
+	height: 50px;
+}
+
+#mainBox {
+	padding: 0px;
+}
+
+table {
+	border-spacing: 15px;
+	padding: 30px;
+}
+
+.table img {
+	width: 100%;
+}
+
+td {
+	border: 2px #969090 solid;
+}
